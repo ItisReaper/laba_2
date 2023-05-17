@@ -25,7 +25,8 @@ namespace lab_2
 
             switch (vibor)
             {
-                case 0:
+                case 1:
+                    A = int.Parse(Console.ReadLine());
                     break;
             }
         }
