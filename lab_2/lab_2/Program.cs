@@ -26,7 +26,6 @@ namespace lab_2
             switch (vibor)
             {
                 case 0:
-                    Console.WriteLine("1");
                     break;
             }
         }
