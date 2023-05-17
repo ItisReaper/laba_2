@@ -28,6 +28,10 @@ namespace lab_2
                 case 1:
                     A = int.Parse(Console.ReadLine());
                     break;
+
+                case 2:
+                    B = int.Parse(Console.ReadLine());
+                    break;
             }
         }
     }
