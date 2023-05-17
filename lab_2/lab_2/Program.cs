@@ -29,7 +29,7 @@ namespace lab_2
                 switch (vibor)
                 {
                     case 4:
-                        A -= B;
+                        A = A - B;
                         break;
                     default:
                         sost = false;
