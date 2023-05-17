@@ -31,11 +31,15 @@ namespace lab_2
                     case 1:
                         A = int.Parse(Console.ReadLine());
                         break;
-                    default: 
-                        sost= false;
+                    case 2:
+                        A = int.Parse(Console.ReadLine());
+                        break;
+                    default:
+                        sost = false;
                         break;
                 }
             }
             while (true);
-    } }
+        }
+    }
 }
