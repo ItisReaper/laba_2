@@ -28,14 +28,8 @@ namespace lab_2
             {
                 switch (vibor)
                 {
-                    case 1:
-                        A = int.Parse(Console.ReadLine());
-                        break;
-                    case 2:
-                        A = int.Parse(Console.ReadLine());
-                        break;
-                    case 3:
-                        A += B;
+                    case 4:
+                        A -= B;
                         break;
                     default:
                         sost = false;
