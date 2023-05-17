@@ -37,6 +37,9 @@ namespace lab_2
                     case 3:
                         A += B;
                         break;
+                    case 4:
+                        A = A - B;
+                        break;
                     default:
                         sost = false;
                         break;
