@@ -19,16 +19,23 @@ namespace lab_2
             Console.WriteLine("выполнить операцию “/”");
 
             int A = 0, B = 0, vibor = 0;
+            bool sost = true;
 
             Console.Write("Введите номер команды - ");
             vibor = int.Parse(Console.ReadLine());
 
-            switch (vibor)
+            do
             {
-                case 3:
-                    A = int.Parse(Console.ReadLine());
-                    break;
+                switch (vibor)
+                {
+                    case 1:
+                        A = int.Parse(Console.ReadLine());
+                        break;
+                    default: 
+                        sost= false;
+                        break;
+                }
             }
-        }
-    }
+            while (true);
+    } }
 }
