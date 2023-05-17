@@ -34,6 +34,9 @@ namespace lab_2
                     case 2:
                         A = int.Parse(Console.ReadLine());
                         break;
+                    case 3:
+                        A += B;
+                        break;
                     default:
                         sost = false;
                         break;
